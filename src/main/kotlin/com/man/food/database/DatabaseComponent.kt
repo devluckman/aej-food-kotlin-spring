@@ -10,5 +10,4 @@ class DatabaseComponent {
     val databaseURL = System.getenv("DATABASE_URL")
     val  database : MongoClient = KMongo.createClient(databaseURL)
 
-
 }
